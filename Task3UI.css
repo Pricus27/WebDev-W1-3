@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100px;
+}   
+h2 {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+ul, ol, li {
+    text-align: center;
+    list-style-position: inside;
+}
+li {
+    text-align: center;
+    list-style-position: inside;
+}
+body {
+  background-color: lightgreen; 
+}
+.center-link {
+    display: block;
+    text-align: center;
+}
