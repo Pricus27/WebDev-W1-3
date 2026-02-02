@@ -1,6 +1,6 @@
 
 body {
-    -color: #f8f9fa; 
+    background-color: #ffffff; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333; 
 }
@@ -48,7 +48,9 @@ body {
     font-size: 0.9rem;
     margin-right: 8px;
     margin-bottom: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
  }
+
 
 .btn-social:hover {
     background-color: #f1f1f1;
@@ -56,15 +58,24 @@ body {
     
 }
 
-#about{
-    
-}
-
-
-
-
-
-
 .uni-logo {
     max-height: 50px;
 }
+
+  
+#home{
+    height: 30vh;
+    background: linear-gradient(to right, #514545, #6e5498);
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10;
+
+}
+#skills{
+    margin-top: 70px;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+

@@ -11,8 +11,44 @@
 </head>
 <body>
 
-    <div class="container py-5">
+    <div class="container py-1">
 
+    <nav class="navbar navbar-expand-lg">
+         <div class="container">
+     <a class="navbar-brand" href="#">My Portfolio</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+    </div>
+  </div>
+</nav>
+        <section id="home" class="bg-primary text-white text-center p-5">
+          <div class ="container">
+            <h1>Hey, I'm Denmark</h1>
+            <p class="lead">Aspiring Software Engineer | CompScie Student</p>
+            <a href ="#projects" class="btn btn-light" >View My Projects</a>
+          </div>
+          </section>
 
     <div class="card mb-4">
         <div class="card-body p-4">
@@ -36,76 +72,73 @@
                     </div>
 
                     <div class="d-flex flex-wrap mt-2">
-                        <a href="#" class="btn btn-sm btn-social"><i class="bi bi-github"></i> Github </a>
+                        <a href="#" class="btn btn-sm btn-social"><i class="bi bi-envelope"></i> Denmark</a>
+                        <a href="#" class="btn btn-sm btn-social"><i class="bi bi-github"></i> GitHub</a>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-
-    <div class ="row">  
-        <div class ="col-lg-8" >
-
-            <div class = "card">
-                <div class ="card-body p-4">
-                    <h3 class="fw-bold mb-3"><i class="bi bi-person-fill me-2"></i> About Me </h3>
-                    <p class="text-muted small"> 
-                        I am 2nd year Computer Science Student. From University of Mindanao. An aspiring software engineering
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="card">
-                <div class="card-body p-4">
-                    <h5 class="fw-bold mb-4"><i class="bi bi-briefcase-fill me-2"></i>Experience</h5>
-                    
-                    <div class="mb-4">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h6 class="fw-bold mb-0">-----</h6>
-                            <span class="badge bg-light text-dark border">-----</span>
-                        </div>
-                        <p class="text-secondary small mb-0">--</p>
-                    </div>
-
-                    <hr class="text-muted opacity-25">
-
-                    <div>
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h6 class="fw-bold mb-0"> </h6>
-                            <span class="badge bg-light text-dark border"> ---- SKILLS</span>
-                        </div>
-                        <p class="text-secondary small mb-0">sKILLS</p>
-                    </div>
-                </div>
-            </div>
-
-
-    </div>
-    
-    <div class="col-lg-4">
+<div class="row">
+        
+        <div class="col-lg-8">
             
             <div class="card">
                 <div class="card-body p-4">
-                    <h5 class="fw-bold mb-3"><i class="bi bi-layers-fill me-2"></i>Tech Stack</h5>
+                    <h5 class="fw-bold mb-3"><i class="bi bi-person me-2"></i>About Me</h5>
+                    <p class="text-muted small">
+                        I am a 2nd year BSCS student at the University of Mindanao,i am a passionate about software and backend development and eager to learn and grow in the tech industry. 
+                        I have a strong foundation in programming languages such as C++, Python, and Java, and I enjoy working on projects that challenge me to think critically and creatively. 
+                        In my free time, I like to explore new technologies, contribute to open-source projects, and stay updated with the latest trends in the software development world.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-briefcase me-2"></i>Experience</h5>
+                    
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1">C++</h6>
+                        <p class="text-muted small mb-0">1 year of an experience in C++ during my shs days</p>
+                    </div>
+
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1">Java</h6>
+                        <p class="text-muted small mb-0">2 years of experience in Java programming and had Tesda level 2 exam</p>
+                    </div>
+
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1">Python</h6>
+                        <p class="text-muted small mb-0">half of year of experience in Python programming</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div> 
+        
+        <div class="col-lg-4">
+            
+            <div class="card">
+                <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-layers me-2"></i>Tech Stack</h5>
                     
                     <div class="mb-3">
                         <small class="text-muted fw-bold d-block mb-2">Frontend</small>
                         <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">TypeScript</span>
-                        <span class="tech-badge">React</span>
-                        <span class="tech-badge">Next.js</span>
-                        <span class="tech-badge">Tailwind CSS</span>
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
                         <span class="tech-badge">Bootstrap</span>
                     </div>
 
                     <div class="mb-3">
                         <small class="text-muted fw-bold d-block mb-2">Backend</small>
                         <span class="tech-badge">MySQL</span>
-                        <span class="tech-badge">PostgreSQL</span>
-                        <span class="tech-badge">Supabase</span>
-                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">C++</span>
+                        <span class="tech-badge">Python</span>
                     </div>
 
                     <div>
@@ -117,25 +150,67 @@
                 </div>
             </div>
 
+        </div> 
+        
+      </div> 
+    
+        <div class="row">
+
+            <div>
+                <div class="card">
+                    <div class="card-body p-6">
+                        <h5 class="fw-bold mb-3"><i class="bi bi-controller me-2"></i>Hobbies</h5>
+                        <h6 class="fw-bold small">Tech | Games | Instruments</h6>
+                        <p class="text-muted small">I love techs and playing games and i also play instruments in my free time.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+        <div class="card">
+                <div class="card-body p-1">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="fw-bold mb-0"><i class="bi bi-window-stack me-2"></i>Certications</h5>
+                    </div>
+                    
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1"><a href="https://www.sololearn.com/certificates/CC-5M985HDM" class="text-muted small mb-0">Python Developer</a></h6>
+                        <p class="text-muted small mb-0">Issued by SoloLearn</p>
+                    </div>
+
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1"><a href="https://www.sololearn.com/certificates/CC-A5SSNJHE" class="text-muted small mb-0">Python Intermediate</a></h6>
+                        <p class="text-muted small mb-0">Issued by SoloLearn</p>
+                    </div>
+
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1"><a href="https://www.sololearn.com/certificates/CC-VMBPJ69K" class="text-muted small mb-0">Introduction to python</a></h6>
+                        <p class="text-muted small mb-0">Issued by SoloLearn</p>
+                    </div>
+
+                </div>
+        </div>
+        <section id="projects">
             <div class="card">
                 <div class="card-body p-4">
                     <div class="d-flex justify-content-between align-items-center mb-3">
                         <h5 class="fw-bold mb-0"><i class="bi bi-window-stack me-2"></i>Recent Projects</h5>
-                        <a href="#" class="text-decoration-none small fw-bold">View All ></a>
                     </div>
                     
-                    <div class="border rounded p-3 bg-light">
-                        <h6 class="fw-bold mb-1">BetterMomsh</h6>
-                        <p class="text-muted small mb-0">An e-commerce website: Curated baby products for moms and infants.</p>
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1">DLCollection</h6>
+                        <p class="text-muted small mb-0">An e-commerce website for digital renting clothes</p>
+                    </div>
+
+                    <div class="border rounded p-3 bg-light mt-3">
+                        <h6 class="fw-bold mb-1">Membership Management System</h6>
+                        <p class="text-muted small mb-0">A system for managing memberships in a business.</p>
                     </div>
                 </div>
             </div>
-
-        </div> 
-    
-
-
-
+        </section>
     </div>
 </body>
 </html>
